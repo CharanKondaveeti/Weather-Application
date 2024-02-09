@@ -1,0 +1,214 @@
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;meta charset="UTF-8"&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;title&gt;&lt;/title&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;link href="./Index.css" rel="stylesheet" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;link href="./Slider.css" rel="stylesheet" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="NavBar"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="Heading"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h1&gt;Weather Application&lt;/h1&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="mainNav"&gt;&lt;a href="/about.html"&gt;about&lt;/a&gt; &lt;a href="/Forecast.html"&gt;5 Days Forecast&lt;/a&gt; &lt;a href="https://ahorn.lima-city.de/owm/"&gt;live weather&lt;/a&gt; &lt;a href="/History.html"&gt;History&lt;/a&gt;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="container"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="cont" style="padding: 20px;"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h1 id="Weather"&gt;&amp;nbsp;&lt;/h1&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="WeatherImage"&gt;&amp;nbsp;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h2 id="Location"&gt;&amp;nbsp;&lt;/h2&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;a id="changeloaction" onclick="changeloc()"&gt;&lt;/a&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h4 id="Temps"&gt;&amp;nbsp;&lt;/h4&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h5 id="feels like"&gt;&amp;nbsp;&lt;/h5&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="cont2"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="class" id="class1"&gt;&lt;img alt="" id="image" src="./Temperatureclip.png" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h5 id="Minmax Temp"&gt;&amp;nbsp;&lt;/h5&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="class" id="class1"&gt;&lt;img alt="" id="image" src="./PressureClip.png" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h5 id="pressure"&gt;&amp;nbsp;&lt;/h5&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="class" id="class2"&gt;&lt;img alt="" id="image" src="./HumidityClip.png" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h5 id="humidity"&gt;&amp;nbsp;&lt;/h5&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="class" id="class2"&gt;&lt;img alt="" id="image" src="./WindClip.png" /&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;h5 id="wind"&gt;&amp;nbsp;&lt;/h5&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="buttons"&gt;&amp;nbsp;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="popup"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;p id="popups"&gt;&amp;nbsp;&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="popup2"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;p id="popups2"&gt;Select Option below&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;button id="button" onclick="Detectloc()"&gt;Detect Loaction&lt;/button&gt;&lt;button id="button" onclick="Enterloc()"&gt;Enter Location&lt;/button&gt;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="popup3"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;p id="popups3"&gt;Enter your location&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;input id="input" placeholder="Enter your pincode or townname,District name" required="" /&gt;&lt;button id="button" onclick="Submit()"&gt;Submit&lt;/button&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="text"&gt;&amp;nbsp;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div id="Footer"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;div class="toggle"&gt;℉ &lt;label class="switch"&gt; &lt;input id="checkbox" onchange="ftoc()" type="checkbox" /&gt; &lt;/label&gt; ℃&lt;button id="button" onclick="defchange()"&gt;change default location&lt;/button&gt;&lt;button id="button" onclick="clearhist()"&gt;clear history&lt;/button&gt;&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;p&gt;design and developed by Kondaveeti Sri Siva Charan&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;script src="./Index2.js"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&lt;/script&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt">
+				&#xa0;
+			</p>
+	<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Converted to HTML with WordToHTML.net</a></p>
